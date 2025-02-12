@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #ffffff;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
 }
 
 /************************************* upper navbar ***************************************/
@@ -26,7 +24,6 @@ body {
 }
 
 .navbar ul {
-  list-style: none;
   display: flex;
   gap: 40px;
 }
@@ -36,7 +33,6 @@ body {
 }
 
 .navbar ul li a {
-  text-decoration: none;
   color: #4a1d1f;
 }
 
@@ -116,7 +112,6 @@ body {
 
 .ft-navbar ul {
   display: flex;
-  list-style: none;
   padding-right: 150px;
   padding-top: 35px;
   gap: 15px;
@@ -127,7 +122,6 @@ body {
 }
 
 .ft-navbar ul li a {
-  text-decoration: none;
   color: #272727;
   font-size: 20px;
 }
